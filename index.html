@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figma UI/UX Design Guide 2026</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --primary:#6366f1;
+  --accent:#f43f5e;
+  --bg:#0f172a;
+  --card:#1e293b;
+  --text:#e2e8f0;
+}
+
+body {
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* HERO */
+.hero {
+  padding:80px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#6366f1,#9333ea);
+}
+
+.hero h1 {
+  font-size:2.8rem;
+  margin-bottom:10px;
+}
+
+.hero p {
+  opacity:0.9;
+}
+
+/* CONTAINER */
+.container {
+  padding:50px 8%;
+}
+
+/* GRID */
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+/* CARD */
+.card {
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(12px);
+  padding:25px;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-8px);
+}
+
+.card h3 {
+  color:#38bdf8;
+}
+
+/* SECTION TITLE */
+.section-title {
+  font-size:1.9rem;
+  margin:40px 0 20px;
+  color:#22c55e;
+}
+
+/* TABLE */
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  padding:12px;
+  border-bottom:1px solid #334155;
+}
+
+th {
+  color:#38bdf8;
+}
+
+/* ROADMAP */
+.roadmap {
+  background:#020617;
+  padding:20px;
+  border-radius:12px;
+  line-height:1.8;
+}
+
+/* BUTTON */
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 22px;
+  background:var(--primary);
+  color:white;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+.btn:hover {
+  background:#4f46e5;
+}
+
+/* FOOTER */
+footer {
+  text-align:center;
+  padding:30px;
+  background:#020617;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  font-size:26px;
+  padding:14px;
+  border-radius:50%;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>Figma UI/UX Design Guide 2026</h1>
+  <p>Best Tool for UI/UX Design — Complete Career Guide</p>
+</div>
+
+<div class="container">
+
+  <!-- WHAT IS FIGMA -->
+  <h2 class="section-title">What is Figma?</h2>
+  <div class="card">
+    Figma is a browser-based collaborative design tool for UI/UX design,
+    prototyping, and design systems with real-time team collaboration.
+  </div>
+
+  <!-- FEATURES -->
+  <h2 class="section-title">Core Features</h2>
+  <div class="grid">
+    <div class="card"><h3>Real-Time Collaboration</h3><p>Multiple users edit simultaneously with comments and live cursors.</p></div>
+    <div class="card"><h3>Auto Layout</h3><p>Responsive design system similar to Flexbox.</p></div>
+    <div class="card"><h3>Components</h3><p>Reusable design systems with variants and tokens.</p></div>
+    <div class="card"><h3>Prototyping</h3><p>Interactive UI flows with Smart Animate.</p></div>
+    <div class="card"><h3>Dev Handoff</h3><p>Inspect CSS, export assets, and share design tokens.</p></div>
+    <div class="card"><h3>Figma AI</h3><p>Auto layout generation, text editing, and smart suggestions.</p></div>
+  </div>
+
+  <!-- COMPARISON -->
+  <h2 class="section-title">Design Tool Comparison</h2>
+  <table>
+    <tr><th>Feature</th><th>Figma</th><th>Sketch</th><th>Adobe XD</th></tr>
+    <tr><td>Platform</td><td>All OS</td><td>macOS</td><td>Win+Mac</td></tr>
+    <tr><td>Collaboration</td><td>Best</td><td>Plugin</td><td>Limited</td></tr>
+    <tr><td>Prototyping</td><td>Advanced</td><td>External</td><td>Basic</td></tr>
+    <tr><td>Free Plan</td><td>Yes</td><td>No</td><td>Limited</td></tr>
+  </table>
+
+  <!-- ROADMAP -->
+  <h2 class="section-title">Learning Path</h2>
+  <div class="roadmap">
+    Week 1–2 → Basics<br>
+    Week 3–4 → Components<br>
+    Week 5–6 → Auto Layout<br>
+    Week 7–8 → Prototyping<br>
+    Week 9–10 → Design Systems<br>
+    Week 11–12 → Portfolio + Jobs
+  </div>
+
+  <!-- SALARY -->
+  <h2 class="section-title">Salary (India 2026)</h2>
+  <table>
+    <tr><th>Level</th><th>Salary</th></tr>
+    <tr><td>Fresher</td><td>₹3–5 LPA</td></tr>
+    <tr><td>Junior</td><td>₹5–10 LPA</td></tr>
+    <tr><td>Mid-Level</td><td>₹10–18 LPA</td></tr>
+    <tr><td>Senior</td><td>₹18–35 LPA</td></tr>
+  </table>
+
+  <!-- CTA -->
+  <div style="text-align:center;">
+    <a href="https://www.justacademy.co/course-detail/figma-training" class="btn">Enroll in Figma Course</a>
+    <a href="https://www.justacademy.co/register-for-course-demo" class="btn">Book Free Demo</a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 JustAcademy | Mumbai | +91 99871 84296</p>
+</footer>
+
+<a href="https://wa.me/919987184296" class="whatsapp">💬</a>
+
+</body>
+</html>
